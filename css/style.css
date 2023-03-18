@@ -152,9 +152,9 @@ a:after {
 
 
 #ww {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-image: url("https://t4.ftcdn.net/jpg/03/08/12/59/360_F_308125993_7q6cMTBlXZib5UffMHWUQJHJHQ5ELvtJ.jpg");
+	padding-top: 50px;
+	padding-bottom: 102px;
+     background: linear-gradient(to right, #FFC0CB 10% , #edd1b8 30%,#edd1b8 90%, #FFC0CB 100%);
     
 }
 
@@ -232,7 +232,7 @@ li {
 
 
 .row{
-    height: 50px;
+    height: 70px;
 }  
 
 .col-md-4{
