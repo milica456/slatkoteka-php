@@ -211,6 +211,9 @@ li {
     padding: 10px 5px;
 }
 
+.cssLogin{
+    background-image: url("https://www.supermarketperimeter.com/ext/resources/2021/12/14/donuts.jpg?height=667&t=1639493446&width=1080") !important;
+}
 
 .prijava-form {
     margin-top: 150px;

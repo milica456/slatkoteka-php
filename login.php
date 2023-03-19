@@ -40,10 +40,10 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 </head>
 
-<body class="cssLogin">
-    <div class="login-form">
+<body class="cssLogin" style=" background-size: cover;">
+    <div class="login-form" style="background-color:#f4a9c9; margin-left:450px; margin-right:450px;padding-top:80px; margin-top:50px;padding-bottom:100px; opacity:86% ; margin-top:100px ; border-radius:50%">
         <div class="main-div">
-            <div class="container" style="margin-top: 20px; margin-bottom: -50px;">
+            <div class="container" >
                 <div class="row">
                     <div class="col-lg-4 offset-lg-4 text-center">
                         <div class="section-heading">
@@ -54,7 +54,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             <form method="post" action="">
                 <br><br><br><br>
                 <br>
-                <div class="container" style="width: 30%; margin: auto;">
+                <div class="container" style="width: 70%; margin: auto;">
                     <br>
 
                     <label style="color:white; font-size:20px; font-weight:bold" for="username">Korsnicko ime:</label>
@@ -65,7 +65,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
                     <input type="password" name="password" class="form-control" required>
                     <br>
 
-                    <button type="submit" class="btn btn-primary" style="background-color:#A5DADE; width: 80%; margin-left: 10%; margin-top:5%; border: 1px #80da62;font-size:20px; font-weight:bold" 
+                    <button type="submit" class="btn btn-primary" style="background-color:#A5DADE; width: 80%; margin-left: 10%; margin-top:5%; border: 1px #80da62; border-radius:40%; font-size:20px; font-weight:bold" 
                     name="submit"> Uloguj se</button>
                     <br><br>
                 </div>
