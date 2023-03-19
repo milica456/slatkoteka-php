@@ -89,6 +89,55 @@ if (isset($_POST['kategorija'])) {
 
     </div>
 
+    
+  <!--promeni prozivod -->
+  <div class="modal fade" id="my1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" style="align-items:center; justify-content: center;">
+          <div class="container prijava-form">
+            <form action="#" method="post" id="izmeniForma">
+
+              <h3 style="color:#f4a9c9; text-align: center">Izmeni proizvod</h3>
+              <div class="row" >
+                <div class="col-md-11 ">
+
+                  <div style="display: none;" class="form-group">
+                    <label for="">proizvodId</label>
+                    <input  id="proizvodId" type="text" style="border: 1px solid #90C7CA" name="proizvodId" class="form-control" />
+                  </div>
+
+                  <div class="form-group" style="display: none;">
+                    <label style="color:#f4a9c9;" for="">kategorijaId</label>
+                    <input id="kategorijaId"  type="text" style="border: 1px solid #90C7CA" name="kategorija" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <label style="color:#f4a9c9;" for="">Ime proizvoda</label>
+                    <input id="imeProizvoda" type="text" style="border: 1px solid #90C7CA" name="imeProizvoda" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <label style="color:#f4a9c9;" for="">Kolicina</label>
+                    <input id="kolicina" type="text" style="border: 1px solid #90C7CA" name="kolicina" class="form-control" />
+                  </div>
+                 
+                  <div class="form-group">
+                    <button id="btnIzmeni" type="submit" class="btn btn-success btn-block" style="background-color:#f4a9c9">
+                    Izmeni proizvod</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
 
 
   <div class="container pt">
@@ -135,10 +184,6 @@ if (isset($_POST['kategorija'])) {
     </table>
 
   </div>
-
-  
-
-
 
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
