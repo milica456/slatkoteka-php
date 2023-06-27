@@ -8,7 +8,7 @@
   $proizvodId=$_POST['proizvodId'];
   $imeProizvoda=$_POST['imeProizvoda'];
   $kolicina=$_POST['kolicina'];
-
+//jefsjflsjsfldkf
 
   $proizvod=new Proizvod($proizvodId,$imeProizvoda,$kolicina);
   $rezultat=$proizvod->update($conn);
