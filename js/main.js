@@ -86,7 +86,7 @@ $('.btn-info').click(function () {
   console.log(trenutni);
   var imeProizvoda = $(this).closest('tr').children('td[data-target=imeProizvoda]').text();
   console.log(imeProizvoda);
-  var nutritivnaVrednost = $(this).closest('tr').children('td[data-target=nutritivnaVrednost]').text();
+  var kolicina = $(this).closest('tr').children('td[data-target=kolicina]').text();
   var cena = $(this).closest('tr').children('td[data-target=cena]').text();
   console.log(cena);
   var kategorijaId = $(this).closest('tr').children('td[data-target=kategorijaId]').text();
@@ -95,7 +95,7 @@ $('.btn-info').click(function () {
 
   $('#proizvodId').val(trenutni);
   $('#imeProizvoda').val(imeProizvoda);
-  $('#nutritivnaVrednost').val(nutritivnaVrednost);
+  $('#kolicina').val(kolicina);
   document.getElementById('kategorijaOznaceni').value = kategorijaId;
 });
 
